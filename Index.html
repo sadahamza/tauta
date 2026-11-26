@@ -34,6 +34,8 @@
   .brand .logo{display:grid;place-items:center;width:42px;height:42px;border-radius:12px;background:var(--grad);color:#fff;font-size:22px;box-shadow:0 8px 22px rgba(143,76,245,.35)}
   .brand b{display:block;color:#fff;font-size:17px;font-weight:800;letter-spacing:-.01em;line-height:1.2}
   .brand small{font-size:12px;color:#9195bf}
+  .sidefoot{margin-top:auto;padding-top:18px;border-top:1px solid var(--navy-line)}
+  .sidefoot .credit{margin:12px 0 0;font-size:12px;color:#9195bf}
   .tagline{margin:0;font-size:13.5px;line-height:1.6;color:#a9acd2}
   .steps{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:2px;position:relative}
   .steps a{display:flex;gap:12px;align-items:center;padding:10px;border-radius:12px;color:var(--navy-ink);text-decoration:none;position:relative;transition:background .15s}
@@ -301,16 +303,19 @@
 </svg>
 <div class="app">
 <aside class="side">
-  <div class="brand">
-    <span class="logo"><svg class="i"><use href="#i-spark"/></svg></span>
-    <span><b>Tauta</b><small>Satu Klik, Dua File, Satu Kecocokan</small></span>
-  </div>
   <ol class="steps" id="steps">
     <li data-step="1" class="active"><a href="#step-1"><span class="dot"><span>1</span><svg class="i"><use href="#i-check"/></svg></span><span><b>Pilih file</b><small>Sumber &amp; tujuan</small></span></a></li>
     <li data-step="2"><a href="#step-2"><span class="dot"><span>2</span><svg class="i"><use href="#i-check"/></svg></span><span><b>Kolom yang diisi</b><small>Pasangkan kolom nilai</small></span></a></li>
     <li data-step="3"><a href="#step-3"><span class="dot"><span>3</span><svg class="i"><use href="#i-check"/></svg></span><span><b>Opsi &amp; proses</b><small>Atur pencocokan nama</small></span></a></li>
     <li data-step="4"><a href="#step-4"><span class="dot"><span>4</span><svg class="i"><use href="#i-check"/></svg></span><span><b>Hasil</b><small>Periksa &amp; unduh</small></span></a></li>
   </ol>
+  <div class="sidefoot">
+    <div class="brand">
+      <span class="logo"><svg class="i"><use href="#i-spark"/></svg></span>
+      <span><b>Tauta</b><small>Satu Klik, Dua File, Satu Kecocokan</small></span>
+    </div>
+    <p class="credit">Developed by Sayyidina Hamzah, Lc.</p>
+  </div>
 </aside>
 
 <main class="wrap">
