@@ -3,3 +3,7 @@
 !.gitignore
 !Index.html
 !vercel.json
+!favicon.ico
+!site.webmanifest
+!assets/
+!assets/**
