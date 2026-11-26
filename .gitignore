@@ -1,0 +1,5 @@
+# Repo ini hanya untuk frontend (Vercel). Backend Apps Script disinkronkan lewat clasp.
+*
+!.gitignore
+!Index.html
+!vercel.json
